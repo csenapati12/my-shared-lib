@@ -6,3 +6,7 @@ echo 'Hello World !!!!!!!!!!!! Chaitanya'
 passString 'Chaitanya'
 println GlobalVariable.gbvar
 }
+stage('info and log'){
+log.info 'Starting'
+log.warning 'Nothing to do!'
+}
